@@ -5,6 +5,13 @@ VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFxivWasm", "Client\FFxivWasm.csproj", "{C38C74CD-F872-410B-8005-FB4E38D0E01D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{8BFE8E19-2A9C-467D-A0BA-93A9D94A8B56}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\azure-static-web-apps-delightful-grass-0b6d58203.yml = .github\workflows\azure-static-web-apps-delightful-grass-0b6d58203.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{36AA7D98-5438-403C-B48D-48C5957DBA67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C38C74CD-F872-410B-8005-FB4E38D0E01D} = {36AA7D98-5438-403C-B48D-48C5957DBA67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED2C3802-7F42-4511-80F3-835CC9FCE0EA}
